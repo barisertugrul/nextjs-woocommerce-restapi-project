@@ -8,6 +8,7 @@ This project aims to create a headless CMS using WordPress and WooCommerce REST 
 
 1. **Install WordPress:**
    - Install and publish WordPress on localhost or a web server.
+   - Install the WP-Theme folder on the wp-content/Themes directory of your WordPress site and activate it from the admin panel.
 
 2. **Install Required Plugins:**
    - WooCommerce

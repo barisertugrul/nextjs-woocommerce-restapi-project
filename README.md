@@ -1,6 +1,4 @@
-# nextjs-woocommerce-restapi-project
-
-# Headless CMS Project
+# Headless CMS (Nextjs - Woocommerce) Project
 
 This project aims to create a headless CMS using WordPress and WooCommerce REST APIs and develop an interface using Next.js, React, and Tailwind CSS.
 
@@ -21,22 +19,21 @@ This project aims to create a headless CMS using WordPress and WooCommerce REST 
 
 ### Frontend Setup
 
-4. **Project Setup:**
-   - Clone the GitHub repository:
-     ```
-bash
-git clone https://github.com/username/repository-name.git
+4.**Project Setup:**
+   -Clone the GitHub repository:
 
-   - Open the frontend project in an editor and run `npm install` to install dependencies.
+     ```git clone <https://github.com/username/repository-name.git>
 
-5. **Set Environment Variables:**
-   - Configure the values in the `.env` file.
+-Open the frontend project in an editor and run `npm install` to install dependencies.
 
-6. **Run the Project:**
-   - Start the project using `npm run dev`.
+5.**Set Environment Variables:**
+   -Configure the values in the `.env` file.
 
-7. **Test the Interface:**
-   - Visit `http://localhost:3000` in your browser to verify the interface is working.
+6.**Run the Project:**
+   -Start the project using `npm run dev`.
+
+7.**Test the Interface:**
+   -Visit `http://localhost:3000` in your browser to verify the interface is working.
 
 ## Project Structure
 

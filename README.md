@@ -28,7 +28,7 @@ This project aims to create a headless CMS using WordPress and WooCommerce REST 
     - Open the frontend project in an editor and run `npm install` to install dependencies.
 
 5. **Set Environment Variables:**
-   - Configure the values in the `.env` file.
+   - Configure the values in the `.env` file. (After changing the extension of the .env.example file to .env, you can add your own values.)
 
 6. **Run the Project:**
    - Start the project using `npm run dev`.

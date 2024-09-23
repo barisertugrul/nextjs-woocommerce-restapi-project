@@ -23,8 +23,7 @@ This project aims to create a headless CMS using WordPress and WooCommerce REST 
    - Clone the GitHub repository:
 
      ```
-     bash
-     git clone <https://github.com/barisertugrul/nextjs-woocommerce-restapi-project>
+     git clone https://github.com/barisertugrul/nextjs-woocommerce-restapi-project
 
     - Open the frontend project in an editor and run `npm install` to install dependencies.
 

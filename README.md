@@ -19,21 +19,21 @@ This project aims to create a headless CMS using WordPress and WooCommerce REST 
 
 ### Frontend Setup
 
-4.**Project Setup:**
-   -Clone the GitHub repository:
+4. **Project Setup:**
+   - Clone the GitHub repository:
 
-     ```git clone <https://github.com/username/repository-name.git>
+     git clone <https://github.com/username/repository-name.git>
 
--Open the frontend project in an editor and run `npm install` to install dependencies.
+- Open the frontend project in an editor and run `npm install` to install dependencies.
 
-5.**Set Environment Variables:**
-   -Configure the values in the `.env` file.
+5. **Set Environment Variables:**
+   - Configure the values in the `.env` file.
 
-6.**Run the Project:**
-   -Start the project using `npm run dev`.
+6. **Run the Project:**
+   - Start the project using `npm run dev`.
 
-7.**Test the Interface:**
-   -Visit `http://localhost:3000` in your browser to verify the interface is working.
+7. **Test the Interface:**
+   - Visit `http://localhost:3000` in your browser to verify the interface is working.
 
 ## Project Structure
 

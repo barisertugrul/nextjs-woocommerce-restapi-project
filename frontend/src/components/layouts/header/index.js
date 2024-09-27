@@ -58,7 +58,7 @@ const Header = ({data}) => {
 								{ siteDescription ? <p>{ siteDescription }</p> : null }
 							</span>
 						</div>
-						<div className="flex justify-end lg:hidden">
+						<div className="flex justify-end w-auto lg:hidden">
 							<button
 								onClick={toggleMenu}
 								className="flex items-center px-3 py-2 border rounded text-black border-black hover:text-black hover:border-black">
@@ -68,7 +68,7 @@ const Header = ({data}) => {
 						<div className={`overflow-hidden lg:h-full flex-grow lg:flex lg:items-center lg:w-auto ml-3 lg:ml-0 ${isMenuOpen ? 'max-h-full w-full block' : 'h-0'}`}>
 							<div className="text-sm font-medium lg:flex-grow">
 								{ !isEmpty( headerMenuItems ) && headerMenuItems.length ? headerMenuItems.map( menuItem => (
-									<Link key={menuItem?.id} href={ menuItem?.url.replace( siteUrl, process.env.NEXT_PUBLIC_WORDPRESS_FRONTEND_URL ) || '/' }>
+									<Link key={menuItem?.id} href={ menuItem?.url.replace( siteUrl, process.env.NEXT_PUBLIC_FRONTEND_URL ) || '/' }>
 										<span className="block mt-4 lg:inline-block lg:mt-0 text-black hover:text-black mr-10"
 										   dangerouslySetInnerHTML={{__html: sanitizeHTML(menuItem.label)}}/>
 									</Link>

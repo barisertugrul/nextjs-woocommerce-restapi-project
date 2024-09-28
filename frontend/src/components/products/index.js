@@ -58,18 +58,18 @@ const Products = ({ products }) => {
             )}): null}
         
         </div> */}
-      <div className="flex max-[550px]:flex-wrap -mx-2 overflow-hidden justify-center">
+      <div className="flex flex-wrap -mx-2 overflow-hidden justify-center">
         {products.length
           ? products.map((product) => {
               const img = product?.images?.[0] ?? {};
               return (
                 <div
                   key={product?.id}
-                  className="relative max-[300px]:m-1 m-5 flex max-[400px]:w-full sm:w-1/2 md:w-1/3 xl:w-1/4 max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md"
+                  className="relative m-1 sm:m-5 flex w-full sm:w-2/5 md:w-3/12 lg:w-1/5 max-w-xs flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md"
                 >
                     <Link legacyBehavior href={product?.permalink.replace( process.env.NEXT_PUBLIC_WORDPRESS_SITE_URL, process.env.NEXT_PUBLIC_FRONTEND_URL ) ?? '/' }>
                   <a
-                    className="relative mx-3 mt-3 flex h-60 max-[550px]:h-30 overflow-hidden rounded-xl"
+                    className="relative mx-3 mt-3 flex sm:h-40 lg:h-52 h-60 overflow-hidden rounded-xl"
                   >
                     <Image
                                                 sourceUrl={img.src ?? ''}

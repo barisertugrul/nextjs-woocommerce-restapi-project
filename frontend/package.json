@@ -19,7 +19,7 @@
     "html-react-parser": "^5.1.16",
     "isomorphic-dompurify": "^2.15.0",
     "lodash": "^4.17.21",
-    "next": "^14.2.13",
+    "next": "^14.2.21",
     "prop-types": "^15.8.1",
     "react": "^18",
     "react-dom": "^18",
